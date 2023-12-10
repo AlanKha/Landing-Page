@@ -1,0 +1,184 @@
+body {
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Roboto', arial;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+*{
+    /* border: 1px solid lightblue; */
+}
+
+/* toolbar */
+
+.toolbar{
+    background-color: plum;
+}
+.toolbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#logo{
+    height: 60px;
+    padding: 3px;
+    width: auto;
+    float: left;
+}
+.header-links{
+    float: right;
+    padding: 20px 20px 20px 0px;
+    font-size: 25px;
+}
+.header-links a{
+    text-decoration: none;
+    color: white;
+}
+
+/* intro page */
+
+.intro-page{
+    background-color: plum;
+    padding: 50px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#title-left {
+    padding: 10px;
+    width: 250px;
+    text-align: left;
+    padding-right: 50px;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#title-left h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+#title-left p {
+    margin: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#title-right {
+    height: 200px; 
+    display: flex;
+    align-items: center; 
+}
+#title-img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid gray;
+}
+
+/* Pictures */
+
+.pictures{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 10px
+}
+
+.pictures img{
+    height: 170px;
+    width: auto;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid lightblue;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.pictures p{
+    width: 180px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.fav-albums h2{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+
+/* Quote */
+
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px 100px 30px 100px;
+    color: #2d343e;
+
+}
+.quote h1{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+}
+.quote p{
+    text-align: right;
+}
+
+/* Sign up */
+
+.sign-up{
+    margin: 40px 0px 40px 0px;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;  
+}
+.box-left{
+    width: 200px;
+    text-align: left;
+    margin: 0px;
+    padding: 20px 50px 20px 50px;
+    background-color: #3882f6;
+}
+
+.box-left h3{
+    margin: 0px;
+    padding: 0px;
+}
+.box-left p{
+    margin: 0px;
+    padding: 0px;
+}
+.box-right{
+    width: 200px;
+    margin: 0px;
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    background-color: #3882f6;
+}
+
+.box-right button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+/* copyright */
+
+.copyright {
+    background-color: #1f2937;
+}
+
+.copyright p{
+    color: white;
+}
